@@ -41,3 +41,6 @@ ng g m core
 ng g c core/header --skipTests
 
 
+ng g m --routing attendance
+ng g c attendance/attendance --skipTests
+ng g c attendance/attendance-report --skipTests
