@@ -1,1 +1,15 @@
 <p>profile works!</p>
+<ng-container>
+  <ul>
+    <li ><a [routerLink]="'education'">Education</a></li>
+    <li ><a [routerLink]="'family'">family</a></li>
+    <li ><a [routerLink]="'insurance'">insurance</a></li>
+    <li ><a [routerLink]="'occupation'">occupation</a></li>
+    <li ><a [routerLink]="'sabha'">sabha</a></li>
+    <li ><a [routerLink]="'social-profiles'">social-profiles</a></li>
+ </ul>
+  <div>
+      <router-outlet></router-outlet>
+  </div>
+
+</ng-container>
