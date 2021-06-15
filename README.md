@@ -44,3 +44,14 @@ ng g c core/header --skipTests
 ng g m --routing attendance
 ng g c attendance/attendance --skipTests
 ng g c attendance/attendance-report --skipTests
+
+ng g m --routing profile
+ng g c profile/profile --skipTests --flat
+ng g c profile/education --skipTests
+ng g c profile/family --skipTests
+ng g c profile/insurance --skipTests
+ng g c profile/occupation --skipTests
+ng g c profile/sabha --skipTests
+ng g c profile/social-profiles --skipTests
+ng g c profile/view-profile --skipTests
+
