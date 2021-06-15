@@ -55,3 +55,4 @@ ng g c profile/sabha --skipTests
 ng g c profile/social-profiles --skipTests
 ng g c profile/view-profile --skipTests
 
+ ng g c core/dashboard --skipTests
