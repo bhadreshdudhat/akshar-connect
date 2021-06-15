@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+--------
+
+ng new akshar-connect --skipTests=true --prefix=ac
+
+ng g m account --routing
+ng g c account/login --skipTests
+ng g c account/register --skipTests
+ng g c account/reset-password --skipTests
+
+
+ng g m core
+ng g c core/header --skipTests
+
+
